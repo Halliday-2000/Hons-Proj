@@ -1,0 +1,19 @@
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/global.json
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/Hons Proj
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/Hons Proj.deps.json
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/Hons Proj.runtimeconfig.json
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/Hons Proj.runtimeconfig.dev.json
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/Hons Proj.dll
+/Users/Kyle/Desktop/Hons Proj/bin/Debug/netcoreapp3.1/Hons Proj.pdb
+/Users/Kyle/Desktop/Hons Proj/obj/Debug/netcoreapp3.1/Hons Proj.csprojAssemblyReference.cache
+/Users/Kyle/Desktop/Hons Proj/obj/Debug/netcoreapp3.1/staticwebassets/Hons Proj.StaticWebAssets.Manifest.cache
+/Users/Kyle/Desktop/Hons Proj/obj/Debug/netcoreapp3.1/staticwebassets/Hons Proj.StaticWebAssets.xml
+/Users/Kyle/Desktop/Hons Proj/obj/Debug/netcoreapp3.1/Hons Proj.MvcApplicationPartsAssemblyInfo.cache
+/Users/Kyle/Desktop/Hons Proj/obj/Debug/netcoreapp3.1/Hons Proj.AssemblyInfoInputs.cache
+/Users/Kyle/Desktop/Hons Proj/obj/Debug/netcoreapp3.1/Hons Proj.AssemblyInfo.cs
+/Users/Kyle/Desktop/Hons Proj/obj/Debug/netcoreapp3.1/Hons Proj.RazorTargetAssemblyInfo.cache
+/Users/Kyle/Desktop/Hons Proj/obj/Debug/netcoreapp3.1/Hons Proj.dll
+/Users/Kyle/Desktop/Hons Proj/obj/Debug/netcoreapp3.1/Hons Proj.pdb

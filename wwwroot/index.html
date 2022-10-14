@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScotlandDrinks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="header">
+
+   <div class="shell">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/Logo.png" width="200px">
+        </div>
+        <nav>
+            <ul id="menuicon">
+                <li><a href="index.html">Home</a>
+                <li><a href="product.html">Shop</a>
+                <li><a href="account.html">Account</a>
+                <li><a href="about.html">About</a>
+            </ul>
+        </nav>
+        <a href="basket.html">
+         <img alt="Qries" src="images/trolley.png" width="45px" height="45px">
+        </a>
+        <img src="images/BurgMenu.png" class="menuicon" onclick="menutoggle()">
+    </div>
+    <div  class="row">
+        <div class="collum2">
+            <h1>Shop what Scotland<br>has to offer</h1>
+            <p>Scotland has some of the best Alcohol that you will find anywhere<br>in the world, so
+            have a look at our products today.</p>
+            <a href="product.html" class="button">Shop Now &#8680;</a>
+        </div>
+        <div class="collum2">
+            <img src="images/GreyScot.png" width ="280px">
+        </div>
+    </div>
+    </div>
+</div>
+
+<!------- Catgeories Highlighted ----->
+<div class="categories">
+    <div class="small-shell">
+        <h2 class="title">Highlighted Categories<br><br></h2>
+        <div class="row">
+        <div class="collum3">
+            <img src="images/Wine.jpg">
+        </div>
+        <div class="collum3">
+            <img src="images/Liquer.jpg">
+        </div>
+        <div class="collum3">
+            <img src="images/Whiskey.jpg">
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--------Featured------->
+<div class="small-shell">
+    <h2 class="title">Featured Today<br><br></h2>
+    <div class="row">
+        <div class="collum4">
+            <img src="images/ArranGold.png">
+            <h4>Arran Gold</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>£18.00</p>
+        </div>
+        <div class="collum4">
+            <img src="images/Grouse.jpg">
+            <h4>Famous Grouse</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>£14.00</p>
+        </div>
+        <div class="collum4">
+            <img src="images/BenLomond.jpg">
+            <h4>Ben Lomond Gin</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>£32.00</p>
+        </div>
+        <div class="collum4">
+            <img src="images/ThistlyCross.png">
+            <h4>Thistly Cross Cider<br>-Whiskey Cask </h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>£2.99</p>
+        </div>
+    </div>
+    <h2 class="title">New In<br><br></h2>
+    <div class="row">
+        <div class="collum4">
+            <img src="images/WesterRum.jpg">
+            <h4>Wester Rum<br>(Premium Spiced)</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>£24.99</p>
+        </div>
+        <div class="collum4">
+            <img src="images/BoeVodka.png">
+            <h4>Boë Pink Vodka</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>£30.00</p>
+        </div>
+        <div class="collum4">
+            <img src="images/KingsHill.jpg">
+            <h4>Kings Hill<br>Scottish Gin</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>£39.99</p>
+        </div>
+        <div class="collum4">
+            <img src="images/InnesGunn.jpg">
+            <h4>Innes and Gunn<br>-Lager Beer</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>£1.99</p>
+        </div>
+    </div>
+</div>
+<!-------------Exclusive Offer----------->
+    <div class="offer">
+        <div class="small-shell">
+            <h2 class="title">Special<br><br></h2>
+            <div class="row">
+                <div class="collum2">
+                    <img src="images/TempleRum.png">
+                </div>
+                <div class="collum2">
+                    <h2 style="background-color: #FFD0AA;">ScotlandDrinks Exclusive Offer</h2>
+                    <h1>Temple Spirits Scottish Rum</h1>
+                    <h2 style="text-decoration:line-through;">£39.99</h2>
+                    <h1>£32.99</h1>
+                    <a href="productdetails.html" class="button">Buy Now &#8680;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------- New Section ------->
+    <div class="Review">
+        <div class="small-shell">
+            <div class="row">
+                <div class="collum3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>Great place to buy from would recommend fast
+                       on delivery, pricing not to bad aswell!
+                    </p>
+                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="images/Profile-1.png">
+                    <h3>Zoe Clark</h3>
+                </div>
+                <div class="collum3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>Great place to buy from would recommend fast
+                       on delivery, pricing not to bad aswell!
+                    </p>
+                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="images/Profile-2.png">
+                    <h3>Hannah Johnson</h3>
+                </div>
+                <div class="collum3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>Great place to buy from would recommend fast
+                       on delivery, pricing not to bad aswell!
+                    </p>
+                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="images/Profile-3.png">
+                    <h3>Gabriel lewis</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----Brand--->
+    <div class="brands">
+        <div class="small-shell">
+            <div class="row">
+                <div class="collum5">
+                    <img src="images/Logo1.png">
+                </div>
+                <div class="collum5">
+                    <img src="images/Logo2.png">
+                </div>
+                <div class="collum5">
+                    <img src="images/Logo3.png">
+                </div>
+                <div class="collum5">
+                    <img src="images/Logo4.png">
+                </div>
+                <div class="collum5">
+                    <img src="images/Logo5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------footer------>
+
+    <div class="footer">
+        <div class="shell">
+            <div class="row">
+                <div class="foot-collum1">
+                    <h2>Thank you<br>for visiting</h2>
+                </div>
+                <div class="foot-collum2">
+                    <img src="images/WhiteLogo.png">
+                </div>
+                <div class="foot-collum3">
+                    <h3>Socials</h3>
+                    <ul>
+                        <li>Twitter<br></li>
+                        <li>Instagram<br></li>
+                        <li>Facebook<br></li>
+                        <li>TikTok<br></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022</p>
+        </div>
+    </div>
+
+    <!-----js toggle----->
+    <script>
+        var menuicon = document.getElementById("menuicon");
+        
+        menuicon.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(menuicon.style.maxHeight == "0px")
+                {
+                    menuicon.style.maxHeight = "200px";
+                }
+            else
+                {
+                    menuicon.style.maxHeight = "0px";
+                }
+        }
+    </script>
+</body>
+</html>

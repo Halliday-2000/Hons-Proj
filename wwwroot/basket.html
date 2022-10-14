@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScotlandDrinks - Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <div class="header">
+
+   <div class="shell">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/Logo.png" width="200px">
+        </div>
+        <nav>
+            <ul id="menuicon">
+                <li><a href="index.html">Home</a>
+                <li><a href="product.html">Shop</a>
+                <li><a href="account.html">Account</a>
+                <li><a href="about.html">About</a>
+            </ul>
+        </nav>
+        <a href="basket.html">
+         <img alt="Qries" src="images/trolley.png" width="45px" height="45px">
+        </a>
+        <img src="images/BurgMenu.png" class="menuicon" onclick="menutoggle()">
+    </div>
+    </div>
+    </div>
+
+    <!---------Cart------>
+    <div class="small-shell basket">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="b-info">
+                        <img src="images/Bells.png">
+                        <div>
+                            <p>Bell's Whiskey</p>
+                            <small>Price: £14.99</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>£14.99</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="b-info">
+                        <img src="images/TempleRum.png">
+                        <div>
+                            <p>Temple Spirits Rum</p>
+                            <small>Price: £32.99</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>£32.99</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>£47.98</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+   <!---------footer------>
+
+    <div class="footer">
+        <div class="shell">
+            <div class="row">
+                <div class="foot-collum1">
+                    <h2>Thank you<br>for visiting</h2>
+                </div>
+                <div class="foot-collum2">
+                    <img src="images/WhiteLogo.png">
+                </div>
+                <div class="foot-collum3">
+                    <h3>Socials</h3>
+                    <ul>
+                        <li>Twitter<br></li>
+                        <li>Instagram<br></li>
+                        <li>Facebook<br></li>
+                        <li>TikTok<br></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022</p>
+        </div>
+    </div>
+    <!-----js toggle----->
+    <script>
+        var menuicon = document.getElementById("menuicon");
+        
+        menuicon.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(menuicon.style.maxHeight == "0px")
+                {
+                    menuicon.style.maxHeight = "200px";
+                }
+            else
+                {
+                    menuicon.style.maxHeight = "0px";
+                }
+        }
+    </script>
+</body>
+</html>
